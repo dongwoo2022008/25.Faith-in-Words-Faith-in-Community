@@ -1,0 +1,66 @@
+{
+ "audit_counts": {
+  "A": 146,
+  "B": 48,
+  "D": 4,
+  "C": 2
+ },
+ "precision_strict": 0.97,
+ "precision_if_D_half": 0.98,
+ "C_rows": [
+  {
+   "emp_title": "Eas Baton Rouge Parish Sheriff's Office",
+   "note": "Louisiana civil parish (East Baton Rouge Parish Sheriff's Office), not religious"
+  },
+  {
+   "emp_title": "Ouachita Parish Sheriff's Office",
+   "note": "Louisiana civil parish (Ouachita Parish Sheriff's Office), not religious"
+  }
+ ],
+ "D_rows": [
+  {
+   "emp_title": "Ministry Saint Joseph's Hospital",
+   "note": "Malformed/unclear title 'Ministry Saint Joseph's Hospital'; may be hospital chaplaincy dept but role unclear"
+  },
+  {
+   "emp_title": "Church and Stagg",
+   "note": "'Church and Stagg' - unclear, possibly a street intersection (Brooklyn) or business name, not clearly a religious institution"
+  },
+  {
+   "emp_title": "Pastor/Soccer Club Director",
+   "note": "'Pastor/Soccer Club Director' - combined title, unclear which employer/role applies; ambiguous"
+  },
+  {
+   "emp_title": "Parish Manager",
+   "note": "'Parish Manager' - could be Catholic parish (B) or Louisiana civil parish office (C); no disambiguating context"
+  }
+ ],
+ "civil_parish_titles": {
+  "n": 30,
+  "n_LA": 30,
+  "default_rate": 0.3,
+  "examples": [
+   "Mowing Crew-Quachita Parish Police Juror",
+   "East Baton Rouge Parish Library",
+   "Parish Anesthesia Consultants",
+   "Ouachita Parish Sheriff's Office",
+   "plaquemines parish government",
+   "St. Martin Parish Juvenile Drug Court",
+   "Beauregard Parish Assessors Office",
+   "PARISH MANAGEMENT CONSULTANTS",
+   "Beauregard Parish Sheriffs Office",
+   "Eas Baton Rouge Parish Sheriff's Office",
+   "St. Tammany Parish Sheriff's Office",
+   "Terrebonne Parish Sheriff Office",
+   "Caddo Parish  Sheriff Office",
+   "Orleans Parish Sheriff's office",
+   "Caddo Parish Sheriffs Office"
+  ]
+ },
+ "H1_excluding_civil_parish": {
+  "OR": 0.683089064006592,
+  "se": 0.04110101622365714,
+  "p": 1.8096990581942825e-20,
+  "n_treated": 3075
+ }
+}

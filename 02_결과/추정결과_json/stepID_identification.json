@@ -1,0 +1,28 @@
+{
+ "member_id_nonnull": 0,
+ "within_institution": {
+  "clergy_role": {
+   "OR": 0.675,
+   "p": 2.3e-14,
+   "n": 2363
+  },
+  "church_staff_nonclergy": {
+   "OR": 0.679,
+   "p": 0.0022,
+   "n": 768
+  }
+ },
+ "raw_default": {
+  "clergy_role": 0.1371,
+  "church_staff": 0.1107,
+  "other": 0.1998
+ },
+ "zip3FE_LPM": {
+  "n": 146248,
+  "zip3": 601,
+  "clergy": -0.0544,
+  "clergy_p": 8.4e-12,
+  "clergy_x_congdensity": -0.0222,
+  "inter_p": 0.027
+ }
+}
