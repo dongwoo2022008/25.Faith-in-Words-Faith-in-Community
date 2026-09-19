@@ -1,0 +1,27 @@
+{
+ "H1_clergy": {
+  "loans": 33105,
+  "treated": 3105,
+  "loan_months": 725884,
+  "events": 6359,
+  "HR": 0.6861014736907621,
+  "p": 5.4367625498329004e-14,
+  "HR_early": 0.6932971361668391,
+  "p_early": 0.0006274699549086679,
+  "HR_late": 0.6837123852396256,
+  "p_late": 2.26245742673354e-11
+ },
+ "H2_relig": {
+  "loans": 8681,
+  "treated": 681,
+  "loan_months": 245747,
+  "events": 1360,
+  "HR": 1.2168478605450175,
+  "p": 0.05455115405483403,
+  "HR_early": 0.9560876538807522,
+  "p_early": 0.8531443973445924,
+  "HR_late": 1.2740393545049076,
+  "p_late": 0.027017680584459615
+ },
+ "note": "event time = last_pymnt_d + 4 months (approx. 120-dpd charge-off), capped at term; Fully Paid censored at last payment month; clustered by loan"
+}

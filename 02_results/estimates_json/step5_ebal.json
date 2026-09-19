@@ -1,0 +1,13 @@
+{
+ "n_covariates": 76,
+ "max_smd_before": 0.17484888668987544,
+ "max_smd_after": 1.8617088670568617e-08,
+ "ess_control": 172964.58910663653,
+ "n_treated": 3105,
+ "OR": 0.6965500942220909,
+ "se": 0.04256120261039127,
+ "p": 1.9561809406650756e-17,
+ "raw_default_treated": 0.13333333333333333,
+ "weighted_default_control": 0.17461769237510094,
+ "unweighted_default_control": 0.200504
+}
