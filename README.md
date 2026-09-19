@@ -19,7 +19,7 @@ Working repository for the paper (target journal: *Journal of Economic Behavior 
 1. `03_code/preprocessing_exploration/lc_extract.py` → `lc_final.pkl` (terminated LendingClub loans, cleaned variables)
 2. `03_code/analysis/step1.py` → `T.pkl` (terminal sample), `D.pkl` (description sample), religious indicators and text dictionaries
 3. `step2.py` (H1 baseline, Table 2), `step3.py` (stable occupations and CEM, Table 2 Panel B), `step3b_fakedict.py` (placebo dictionaries), `step4*.py` (H2 double machine learning, Table 5 and Figure 3), `step5c.py` (entropy balancing), `step6.py` (discrete-time hazard, Appendix A1), `step7a.py` (Prosper replication, Table 4), `step7b.py` (investor response), `stepA_arda.py` and `stepU_unemp.py` (local religiosity and unemployment, Tables 7–8), `stepN_neighbor.py` (neighbor occupations), `stepID2.py` (Oster and Cinelli–Hazlett, Table 3), `stepG_extras.py` (selection into writing a description, alternative clustering, Appendix C), `stepH_precision.py` (indicator precision, Louisiana civil parishes), `stepF_figures.py` (Figures 2–5)
-4. `03_code/manuscript_build/build_v7b.py` → docx/pdf (pandoc, python-docx, LibreOffice)
+4. `03_code/manuscript_build/build_v9.py` → docx/pdf (pandoc, python-docx, LibreOffice)
 
 Paths inside the scripts refer to the container they were run in (`/mnt/user-data/uploads/...`, `out/`); point them at `04_data/` before running. Random seeds are fixed in each script (`random_state=1`, `5`, etc.).
 
