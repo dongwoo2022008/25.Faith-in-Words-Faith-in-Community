@@ -1,0 +1,23 @@
+TY  - UNPB
+TI  - Faith in Words, Faith in Community: Religious Affiliation, Religious Language, and Default in Online Consumer Credit
+AU  - Kim, Dongwoo
+PY  - 2026
+DA  - 2026/09/19
+M3  - Working paper (draft v7, prepared for Journal of Economic Behavior & Organization)
+PB  - Baekseok University, Division of Advanced IT
+AB  - Religion enters a consumer-credit file in two ways: as an affiliation a borrower reports in a job title, and as language a borrower chooses to use in a loan request. Using 1.34 million terminated LendingClub loans issued between 2007 and 2018, I show that the two carry opposite information about default. Borrowers employed by religious institutions — pastors and ministers, but also church secretaries and administrators — default about five percentage points less than borrowers with the same credit score, income, debt burden, loan terms, state and origination year. The estimate survives controls for eight other stable occupations, comparison with and exact matching to nonprofit, education and healthcare workers — who show no such advantage — entropy balancing on 76 covariate moments, double machine learning, sensitivity analysis for unobserved confounding, and replication on Prosper. It is larger where local congregations are denser, holds within three-digit ZIP areas, and does not respond to local unemployment shocks. Borrowers who invoke faith in the text of their loan description default about three percentage points more; the sign is stable across every specification, but the estimate loses precision once the full text is conditioned on, and I report it as such. Neither signal is priced by the platform. The pattern is consistent with religious community acting as borrower-side social collateral, and with religious language as a low-cost, unverifiable signal whose information runs against the sender's intent.
+KW  - religion
+KW  - social capital
+KW  - consumer credit
+KW  - credit risk
+KW  - online lending
+KW  - text analysis
+KW  - signaling
+KW  - JEL D14
+KW  - JEL G21
+KW  - JEL G41
+KW  - JEL Z12
+UR  - https://github.com/dongwoo2022008/25.Faith-in-Words-Faith-in-Community
+N1  - GitHub: https://github.com/dongwoo2022008/25.Faith-in-Words-Faith-in-Community; Google Drive: 논문.김동우/Under.writing/25.Faith in Words, Faith in Community
+LA  - en
+ER  - 
