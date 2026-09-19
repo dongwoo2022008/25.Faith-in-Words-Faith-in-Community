@@ -1,0 +1,16 @@
+{
+ "lc": {
+  "n": 200,
+  "kappa_type": 0.8625954198473282,
+  "kappa_relig_vs_x": 0.8126801152737753,
+  "kappa_frame": 0.7246969754903835,
+  "raw_agreement": 0.91
+ },
+ "pf": {
+  "n": 100,
+  "kappa_type": 0.7165991902834008,
+  "kappa_relig_vs_x": 0.7282608695652173,
+  "kappa_frame": 0.04648390941597136,
+  "raw_agreement": 0.79
+ }
+}
