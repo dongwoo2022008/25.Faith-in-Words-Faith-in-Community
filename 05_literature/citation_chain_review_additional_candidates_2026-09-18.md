@@ -2,7 +2,7 @@
 
 ## 방법과 범위
 
-원고 v2의 참고문헌 32편 중 방법론·자료 문헌 6편(Chernozhukov, Cinelli–Hazlett, Grammich, Hainmueller, Oster, Rajan–Zingales)을 제외한 26편에 대해 각 논문의 참고문헌 목록을 Crossref API·출판사 페이지·RePEc·arXiv로 수집했고(후방 추적), 핵심 3편(Baele 2014, He & Hu 2016, Netzer 2019)에 대해서는 이들을 인용한 2015–2026년 논문도 Semantic Scholar로 톥었다(전방 추적). 후보는 모두 출판사·DOI·RePEc 페이지에서 서지를 확인했고, 초록을 직접 읽지 못한 것은 표에 표시했다. 확인되지 않은 것은 마지막 절에 따로 둔다.
+원고 v2의 참고문헌 32편 중 방법론·자료 문헌 6편(Chernozhukov, Cinelli–Hazlett, Grammich, Hainmueller, Oster, Rajan–Zingales)을 제외한 26편에 대해 각 논문의 참고문헌 목록을 Crossref API·출판사 페이지·RePEc·arXiv로 수집했고(후방 추적), 핵심 3편(Baele 2014, He & Hu 2016, Netzer 2019)에 대해서는 이들을 인용한 2015–2026년 논문도 Semantic Scholar로 훑었다(전방 추적). 후보는 모두 출판사·DOI·RePEc 페이지에서 서지를 확인했고, 초록을 직접 읽지 못한 것은 표에 표시했다. 확인되지 않은 것은 마지막 절에 따로 둔다.
 
 수집 범위: 26편 중 22편은 참고문헌 전체를 확보했다. 확보하지 못한 것은 Iannaccone 1992·1994(출판사가 참고문헌을 공개하지 않음), Guiso–Sapienza–Zingales 2004(Crossref 13건만; CEPR 판본 21건으로 보완), Spence·Crawford–Sobel·Farrell–Rabin(고전 이론 논문이라 참고문헌 대신 신용시장 적용 후속 문헌으로 대체)이다.
 
@@ -19,7 +19,7 @@
 | Duarte, J., Siegel, S., & Young, L. (2012). Trust and credit: The role of appearance in peer-to-peer lending. *Review of Financial Studies*, 25(8), 2455–2484. doi:10.1093/rfs/hhs071 | 신뢰감 있는 외모의 Prosper 차입자는 펀딩·금리가 유리하고 실제 부도도 낮음 | 2.2절·6.1절. 정보가 있고 가격에도 반영된 연성 신호의 대조 사례. | He & Hu 2016 |
 | Gao, Q., Lin, M., & Sias, R. (2023). Words matter: The role of readability, tone, and deception cues in online credit markets. *Journal of Financial and Quantitative Analysis*, 58(1), 1–28. doi:10.1017/S0022109022000850 | 읽기 쉽고 긍정적이며 기만 단서가 적은 서술문은 펀딩·부도 모두 유리하지만 투자자는 텍스트에 과소 반응 | 5.2절·6.1절. "텍스트는 정보가 있는데 가격에 덜 반영된다"는 우리 결과(연 28bp)와 같은 패턴. | 전방 탐색 |
 | Davaadorj, Z., Enkhtaivan, B., & Lu, W. (2025). Character and creditworthiness: Unveiling the role of job titles in peer-to-peer lending. *Journal of Financial Research*, 49(3), 1205–1228. doi:10.1111/jfir.70016 | Prosper에서 신뢰도 높은 직업의 차입자가 펀딩 확률과 투자자 수익이 높음 — 직업란이 성격 정보를 담음 | 1절·3.2절·5.1절. 직업란을 신용 정보로 쓴 직접 선행. 반드시 인용하고 차이(우리는 종교 기관 소속, 부도 결과)를 명시. | 전방 탐색 |
-| Hilary, G., & Hui, K. W. (2009). Does religion matter in corporate decision making in America? *Journal of Financial Economics*, 93(3), 455–473. doi:10.1016/j.jfineco.2008.10.001 | ARDA 카운티 종교성이 높을수록 기업 위험 노출·투자 낮음 | 3.4절·5.5절. ARDA 자료를 금융 연구에 쓴 표준 선행. 우리 출처 8편 중 6편이 인용 — 빠져 있으면 눈에 띄임. | Chen 2016; He & Hu; Davidson; Conklin; Clifton; Li & Ucar |
+| Hilary, G., & Hui, K. W. (2009). Does religion matter in corporate decision making in America? *Journal of Financial Economics*, 93(3), 455–473. doi:10.1016/j.jfineco.2008.10.001 | ARDA 카운티 종교성이 높을수록 기업 위험 노출·투자 낮음 | 3.4절·5.5절. ARDA 자료를 금융 연구에 쓴 표준 선행. 우리 출처 8편 중 6편이 인용 — 빠져 있으면 눈에 띔. | Chen 2016; He & Hu; Davidson; Conklin; Clifton; Li & Ucar |
 | Stiglitz, J. E. (1990). Peer monitoring and credit markets. *World Bank Economic Review*, 4(3), 351–366. doi:10.1093/wber/4.3.351 | 동료 감시가 위험을 공동 채무자에게 이전하면서 차입자 후생을 높임 | 2.1절. Besley–Coate 옆에 놓이는 "동료 감시"의 원전. | Besley & Coate; Karlan |
 | Ghatak, M., & Guinnane, T. W. (1999). The economics of lending with joint liability: Theory and practice. *Journal of Development Economics*, 60(1), 195–228. doi:10.1016/S0304-3878(99)00041-3 | 연대 책임이 선별·감시·집행·감사의 네 문제를 푸는 경로를 정리 | 2.1절. 종교 공동체가 담보로 작동하는 경로를 네 가지로 나눠 말할 수 있게 해 줌 — 목사/비서·교회 밀도 결과가 어느 경로에 대응하는지 서술 가능. | Karlan |
 | Clark, B., Hasan, I., Lai, H., Li, F., & Siddique, A. (2021). Consumer defaults and social capital. *Journal of Financial Stability*, 53, 100821. doi:10.1016/j.jfs.2020.100821 | 신용정보 계정 자료: 사회자본 높은 지역 차입자의 부도가 낮고, 전략적 모기지 부도에서 가장 큼 | 2.1절·5.5절. 소비자 신용에서 "부도의 사회적 비용"을 보인 가장 가까운 문헌. | Li & Ucar 2022 |
@@ -75,7 +75,7 @@ Gao & Lin, "Lemon or cherry? The value of texts in debt crowdfunding" (UCSC CAFI
 
 1순위 14편은 전부 넣을 것을 권한다. 그중 원고 논리에 실제로 변화를 주는 것은 넷이다. Davaadorj 외 (2025)는 "직업란을 신용 정보로 쓴 선행이 없다"는 인상을 줄 수 없게 하므로 1절과 3.2절에서 차이를 명시해야 한다. Herzenstein 외 (2011)와 Michels (2012)는 H2가 Netzer 한 편이 아니라 "검증 불가 자기 서술" 문헌 전체와 대화하게 만든다. Lin 외 (2013)는 온라인 대출에서 공동체 신호가 부도를 낮춘 유일한 선행이라 H1의 자리를 정해 준다. 나머지 열 편은 문헌 절의 빈자리(동료 감시 원전, ARDA 표준 인용, 소비자 부도와 사회자본, 기업 부채의 종교성 가격 반영)를 메운다.
 
-2순위는 2.1절 사회적 담보 문단과 5.5절 개인/지역 대비 문단을 두꺼게 하는 데 쓰인다. 특히 Cassar 외 (2007)와 Traunmüller (2011)는 "개인 소속은 작동하고 지역 종교성은 작동하지 않는다"는 결과에 평행 사례를 제공하므로 5.5절에 한 문장씩 넣을 가치가 있다. Kriebel & Stitz (2022)는 리뷰어의 BERT 요구에 대한 문헌상 답(단순 임베딩이 BERT와 대등)이 된다.
+2순위는 2.1절 사회적 담보 문단과 5.5절 개인/지역 대비 문단을 두껍게 하는 데 쓰인다. 특히 Cassar 외 (2007)와 Traunmüller (2011)는 "개인 소속은 작동하고 지역 종교성은 작동하지 않는다"는 결과에 평행 사례를 제공하므로 5.5절에 한 문장씩 넣을 가치가 있다. Kriebel & Stitz (2022)는 리뷰어의 BERT 요구에 대한 문헌상 답(단순 임베딩이 BERT와 대등)이 된다.
 
 원고에 반영하면 참고문헌은 32편에서 46편(1순위만) 또는 62편(2순위까지)이 된다. JEBO 논문의 통상 범위 안이다.
 
