@@ -1,0 +1,5 @@
+# raw data exceeds GitHub's 100 MB file limit; kept on Google Drive (see 04_데이터/원데이터/원데이터_위치.md)
+04_데이터/원데이터/LendingClub/accepted_2007_to_2018Q4.csv.gz
+04_데이터/원데이터/Prosper/prosperLoanData.csv
+*.pkl
+__pycache__/
