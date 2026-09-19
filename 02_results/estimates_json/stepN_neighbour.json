@@ -1,0 +1,110 @@
+{
+ "n_nonprofit": 11592,
+ "n_educ": 54998,
+ "n_health": 76981,
+ "n_aff": 3105,
+ "raw_default": {
+  "aff": 0.13333333333333333,
+  "nonprofit": 0.20591787439613526,
+  "educ": 0.1805702025528201,
+  "health": 0.19029370883724556,
+  "other": 0.20119148114292945
+ },
+ "nonprofit_top_titles": {
+  "Social Worker": 963,
+  "Case Manager": 816,
+  "Counselor": 797,
+  "School Counselor": 379,
+  "Social worker": 242,
+  "RN Case Manager": 233,
+  "social worker": 174,
+  "Case manager": 170,
+  "counselor": 144,
+  "case manager": 143,
+  "Guidance Counselor": 126,
+  "Caseworker": 115,
+  "Clinical Social Worker": 91,
+  "Counselor ": 91,
+  "School Social Worker": 75,
+  "Social Worker ": 75,
+  "Social worker ": 74,
+  "Nurse Case Manager": 73,
+  "Financial Counselor": 64,
+  "Medical Social Worker": 62,
+  "RN case manager": 57,
+  "Case Manager ": 54,
+  "Registered Nurse Case Manager": 54,
+  "Case manager ": 48,
+  "Admissions Counselor": 44
+ },
+ "nonprofit_vs_general": {
+  "OR": 1.0234981748930478,
+  "se": 0.02965328756157366,
+  "p": 0.4334722912118447,
+  "n": 261592,
+  "n_treated": 11592,
+  "converged": true,
+  "sec": 381
+ },
+ "educ_vs_general": {
+  "OR": 0.9447289485291145,
+  "se": 0.016903302819590772,
+  "p": 0.0007691201629768562,
+  "n": 304998,
+  "n_treated": 54998,
+  "converged": true,
+  "sec": 507
+ },
+ "health_vs_general": {
+  "OR": 1.0229598013432597,
+  "se": 0.01542652493087375,
+  "p": 0.14115489842914028,
+  "n": 326981,
+  "n_treated": 76981,
+  "converged": true,
+  "sec": 560
+ },
+ "aff_vs_nonprofit_only": {
+  "OR": 0.6902819874471929,
+  "se": 0.056961862080829234,
+  "p": 7.662835085924266e-11,
+  "n": 14697,
+  "n_treated": 3105,
+  "converged": true,
+  "sec": 3
+ },
+ "aff_vs_educ_only": {
+  "OR": 0.7470918485382595,
+  "se": 0.053384211893027195,
+  "p": 4.716664925517672e-08,
+  "n": 58103,
+  "n_treated": 3105,
+  "converged": true,
+  "sec": 63
+ },
+ "aff_vs_health_only": {
+  "OR": 0.6786684477042234,
+  "se": 0.045924453523773105,
+  "p": 3.1614700390400854e-17,
+  "n": 80086,
+  "n_treated": 3105,
+  "converged": true,
+  "sec": 44
+ },
+ "aff_vs_all_neighbours": {
+  "OR": 0.7074203857748994,
+  "se": 0.04825070368361404,
+  "p": 7.306261216108452e-13,
+  "n": 143782,
+  "n_treated": 3105,
+  "converged": true,
+  "sec": 60
+ },
+ "CEM_within_neighbour_pool": {
+  "OR": 0.7029216693381019,
+  "p": 1.0058221133928174e-09,
+  "n_aff": 2766,
+  "n_ctrl": 39860,
+  "strata": 2234
+ }
+}
