@@ -1,13 +1,13 @@
 # Faith in Words, Faith in Community
 ### Religious Affiliation, Religious Language, and Default in Online Consumer Credit
 
-Working repository for the paper (target journal: *Journal of Economic Behavior & Organization*). Author: Dongwoo Kim, Division of Advanced IT, Baekseok University. Current manuscript: `01_manuscript/manuscript_v7_JEBO_2026-09-19.md` (draft v7, 19 September 2026, 25 pages in the Word/PDF build).
+Working repository for the paper (target journal: *Journal of Economic Behavior & Organization*). Author: Dongwoo Kim, Division of Advanced IT, Baekseok University. Current manuscript: `01_manuscript/manuscript_v9_JEBO_2026-09-19.md` (draft v9, 19 September 2026, 25 pages in the Word/PDF build).
 
 ## Layout
 
 | Folder | Contents |
 |---|---|
-| `01_manuscript/` | Manuscript v7 (Markdown source; the .docx/.pdf builds and the five 300-dpi figures live on the Google Drive copy), `previous_versions/` v1–v6 and section drafts, Zotero records for the paper (`.ris`, `.bib`) |
+| `01_manuscript/` | Manuscript v9 (Markdown source; the .docx/.pdf builds and the five 300-dpi figures live on the Google Drive copy), `previous_versions/` v1–v6 and section drafts, Zotero records for the paper (`.ris`, `.bib`) |
 | `02_results/` | `tables_csv/` raw numbers behind the tables, `estimates_json/` output of each analysis step, `coding_validation/` LLM coding results, inter-AI reliability, human-coder validation sample, affiliation-indicator precision audit (200 titles), codebooks; `run_log_2026-09-18.md` (work log, rounds 1–10), methodology summary, paper summary for evaluation |
 | `03_code/` | `analysis/` step scripts that produce every table and figure, `preprocessing_exploration/` raw data → pickles and early exploration, `manuscript_build/` Markdown → docx/pdf build and self-check scripts |
 | `04_data/` | `raw/` LendingClub and Prosper loan data (not in the repository: see `raw/raw_data_location.md`), `external/` ARDA 2010 U.S. Religion Census (county), Census ZCTA–county relationship file, BLS LAUS county unemployment 2008–2018 |

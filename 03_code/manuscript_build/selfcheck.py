@@ -17,3 +17,10 @@ print("  first words:",Counter(starts).most_common(8))
 print("== topic sentences")
 for x in paras: print("  -",re.split(r'(?<=[.!?])\s+',x)[0][:140])
 a=s[s.index("**Abstract.**")+13:s.index("*Keywords:*")]; print("== abstract words",len(a.split()),"| body words",len(body.split()))
+
+# --- punctuation density vs benchmarks (added v8): em dash <=1.5/1000 words, semicolon <=3.8/1000, abstract none
+import re as _re
+_t=open(sys.argv[1]).read().split("# References")[0]
+_p="\n".join(l for l in _t.split("\n") if not l.startswith(("|","![")))
+_w=len(_p.split()); _ab=_re.search(r'\*\*Abstract\.\*\* (.+?)\n',_t).group(1)
+print("== punctuation: em dash/1000w %.2f (<=1.5), semicolon/1000w %.2f (<=3.8), abstract dash %d semi %d (0)"%(1000*_p.count("—")/_w,1000*_p.count(";")/_w,_ab.count("—"),_ab.count(";")))
