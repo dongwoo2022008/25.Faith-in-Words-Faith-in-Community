@@ -411,9 +411,9 @@ Iannaccone, L. R. (1994). Why strict churches are strong. *American Journal of S
 
 Iannaccone, L. R. (1998). Introduction to the economics of religion. *Journal of Economic Literature*, 36(3), 1465–1495.
 
-Iyer, S. (2016). The new economics of religion. *Journal of Economic Literature*, 54(2), 395–441.
-
 Iyer, R., Khwaja, A. I., Luttmer, E. F. P., & Shue, K. (2016). Screening peers softly: Inferring the quality of small borrowers. *Management Science*, 62(6), 1554–1577.
+
+Iyer, S. (2016). The new economics of religion. *Journal of Economic Literature*, 54(2), 395–441.
 
 Jiang, F., John, K., Li, C. W., & Qian, Y. (2018). Earthly reward to the religious: Religiosity and the costs of public and private debt. *Journal of Financial and Quantitative Analysis*, 53(5), 2131–2160.
 
