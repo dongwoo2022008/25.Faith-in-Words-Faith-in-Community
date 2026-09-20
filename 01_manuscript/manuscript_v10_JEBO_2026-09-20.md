@@ -126,7 +126,7 @@ A word on what I do not do. I do not estimate a prediction model and claim that 
 
 ## 5.1 Affiliation (H1)
 
-Table 2 reports the affiliation estimates. Column (1) of Panel A gives the confirmatory specification, estimated on all 3,105 affiliated loans and a random draw of 250,000 other terminated loans. The odds ratio is 0.69 (clustered standard error on the log-odds 0.041, p ≈ 7 × 10⁻¹⁸), an average marginal effect of −4.8 percentage points against a base default rate of 20 percent, or about a quarter of the base rate. Columns (2) and (3) split the sample by period: the estimate is 0.61 for loans issued in 2008–2014 and 0.74 for 2015–2018. The effect is smaller in the later, lower-default years but does not fade, which matters because it means the finding is not a property of the platform's early, self-selected borrowers. The one-sided Holm-adjusted p-value is below 10⁻¹⁸.
+Table 2 reports the affiliation estimates. Column (1) of Panel A gives the confirmatory specification, estimated on all 3,105 affiliated loans and a random draw of 250,000 other terminated loans. The odds ratio is 0.69 (clustered standard error on the log-odds 0.041, p ≈ 7 × 10⁻¹⁹), an average marginal effect of −4.8 percentage points against a base default rate of 20 percent, or about a quarter of the base rate. Columns (2) and (3) split the sample by period: the estimate is 0.61 for loans issued in 2008–2014 and 0.74 for 2015–2018. The effect is smaller in the later, lower-default years but does not fade, which matters because it means the finding is not a property of the platform's early, self-selected borrowers. The one-sided Holm-adjusted p-value is below 10⁻¹⁸.
 
 **Table 2. Religious-institution affiliation and default (H1)**
 
