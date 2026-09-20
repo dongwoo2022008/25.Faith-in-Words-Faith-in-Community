@@ -28,3 +28,6 @@ Oster/Cinelli("employment length"), Karlan 2005, Grammich(분할), Hainmueller/C
 - 저자–연도 인용 다중집합: 변화 없음. 참고문헌 목록: 변화 없음.
 - 부호 규칙: em dash 0.65/1000단어, 세미콜론 1.47/1000단어, 초록 233단어·대시 0·세미콜론 0, 55단어 초과 문장 없음.
 - 빌드: docx·pdf 26쪽, 서론·표 5·결론 쪽 육안 확인.
+
+## 6. 추가 수정 (2026-09-20)
+- 초록 "who show no such advantage" → "who show no comparable advantage". 교육 종사자는 일반 차입자 대비 OR 0.945(p<0.001)로 작은 이점이 있으므로(표 2 Panel B) "그런 이점이 없다"는 과장. 초록 233단어 유지.
