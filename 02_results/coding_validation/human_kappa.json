@@ -1,0 +1,18 @@
+{
+ "LC_200": {
+  "n": 200,
+  "kappa_type": 0.719,
+  "raw_type": 0.815,
+  "kappa_binary": 0.553,
+  "raw_binary": 0.845,
+  "kappa_frame": 0.481
+ },
+ "PF_100": {
+  "n": 100,
+  "kappa_type": 0.632,
+  "raw_type": 0.73,
+  "kappa_binary": 0.562,
+  "raw_binary": 0.86,
+  "kappa_frame": 0.016
+ }
+}
