@@ -26,6 +26,8 @@ for t in doc.tables:
     tblPr.append(tw)
     first=0.21 if ncol>8 else (0.24 if ncol>6 else (0.30 if ncol>3 else 0.45))
     widths=[usable*first]+[usable*(1-first)/(ncol-1)]*(ncol-1)
+    if ncol==10 and t.rows[0].cells[0].text.strip()=='Group':
+        widths=[usable*0.20,usable*0.10]+[usable*0.70/8]*8
     grid=t._tbl.tblGrid
     for gc in list(grid): grid.remove(gc)
     for w in widths:
