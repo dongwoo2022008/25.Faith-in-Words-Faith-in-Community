@@ -49,3 +49,8 @@ Oster/Cinelli("employment length"), Karlan 2005, Grammich(분할), Hainmueller/C
 ## 10. 외부 심사평 대조 후 수정 (2026-09-20)
 - 표 1 N 열 폭 확대(PDF에서 1,341,871이 줄바꿈되던 문제), 5.1절 "full terminal sample" → 실제 표본(소속 3,105 + 무작위 250,000)으로 정정, "same churches/same congregation" 과장 수정(교회 식별 불가 명시), "can enforce" → "may enforce", "protective form" → "form … associated with lower default", 표 7 주석에 ZIP3 FE 표본(비교군 150,000, ZIP3당 50건 이상, ZIP3 군집) 명시.
 - 상세 검토: 06_기획_진행문서/외부심사평_검토_2026-09-20.md
+
+## 11. 메커니즘 보완 재분석 + 영문 표현 심사 반영 (2026-09-20)
+- 상세: 06_기획_진행문서/영문표현심사_검토_2026-09-20.md, 메커니즘보완_권장방향_2026-09-20.md
+- 새 분석 스크립트 stepR2a–e.py, 결과 02_결과/추정결과_json/stepR2a.json
+- 본문 표 9, 부록 표 B3·C4 추가, 표 8 재추정, 부록 표 C3 확장. PDF 29쪽.
