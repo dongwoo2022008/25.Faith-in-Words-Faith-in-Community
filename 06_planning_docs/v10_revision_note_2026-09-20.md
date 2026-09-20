@@ -65,3 +65,17 @@ Oster/Cinelli("employment length"), Karlan 2005, Grammich(분할), Hainmueller/C
 - 3.2절과 부록 표 B1 주석에 사람 코더 수치와 불일치 건수를 기재. 검증 지표는 강건성 점검으로만 쓰고 유형별 분해는 가장 불확실한 결과로 명시.
 - 확인적 검정은 사전 지표를 쓰므로 주결과 불변. 상세: 02_결과/코딩_검증/사람코더_일치도_2026-09-20.md
 - 추가(같은 날): 부록 표 B1 주석에 유병률 보정 κ(PABAK) 0.69과 불일치가 몰린 경계(관용구–비종교 17건, 정체성–비종교 8건, 실천 범주는 40건 중 36건 일치) 기재. 6.4절에 "종교 표현의 경계는 읽는 사람에 따라 갈리므로 유형별 결과는 방향만 참고" 한 문장 추가.
+
+## 14. 다른 계정 편집본 병합 (2026-09-20)
+- 업로드된 manuscript_v10_JEBO.docx(구글 독스 편집본)와 대조: 실질 차이는 초록 마지막 문장 "The design is observational and does not identify either mechanism." 삭제 한 곳뿐. 나머지 차이는 표 렌더링과, 그 문서가 사람 코딩 반영 이전 버전이라 생기는 것(3.2절 2문장, B1 주석, 6.4절 1문장).
+- 초록 문장 삭제를 이쪽 원고에도 반영(초록 240단어). 관찰 설계라는 진술은 서론 5문단과 6.4절에 이미 있어 정보 손실 없음.
+- 독스 쪽에 아직 없는 4곳은 docs_delta_human_coding으로 정리해 전달.
+- 추가: 서론 첫 문단 "a paragraph about credit cards" → "a paragraph about the debts they wanted to consolidate". 설명문의 53%가 신용카드를 언급하지만 용도 분류는 부채 통합 57.3% / 신용카드 21.1%이고 병원비·개인대출도 섞여 있어, 카드빚만으로 읽히지 않게 넓힘.
+
+## 15. 서론 구조 검토 반영 (2026-09-20)
+- 두 외부 검토자가 공통으로 지적한 "연구질문 부재"를 3문단 첫머리에 한 문장으로 추가: "The question is whether the two traces religion leaves in a credit file carry the same information about repayment, and if they do not, what separates them."
+- 2문단 첫 언급에 소속 지표 정의 추가("I call a borrower affiliated when the job title places the job inside a religious institution in this way"). 용어 혼용 지적 반영.
+- 6문단(식별 한계)의 세부 수치를 덜어냄: Cinelli–Hazlett "약 12배"는 5.1절 참조로, Holm 보정 언급은 4절·5.2절에 이미 있으므로 서론에서 삭제.
+- 반영하지 않은 제안과 이유: 문헌 문단을 앞으로 당기는 전면 재구성(벤치마크 3편 모두 결과가 문헌보다 앞선다), 결과 수치 한 줄 추가(2문단에 이미 있음), 그림 1 설명 축약(본문이 아니라 캡션), 구성 안내 확장(분량만 늘고 "서론에 결과 과다" 지적과 충돌).
+- 검증: 인용 변화 없음, 숫자 변화는 "5.1" 참조 추가뿐, 초록 240단어, 55단어 초과 문장 없음, PDF 29쪽, 2–3쪽 육안 확인.
+- 추가: 서론 6문단(설계의 한계) 축약 180→116단어. 강건성 검정 나열(길이 매칭·사전·플라시보)과 Oster·Cinelli–Hazlett 이름은 본문(4절·5.1절·5.2절)에 있으므로 서론에서 뺌. 한계 두 가지, 대응 두 가지, H2 하향 선언은 유지. 인용 목록 변화 없음(두 문헌 모두 4절에서 인용).
