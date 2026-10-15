@@ -1,4 +1,5 @@
 # Build manuscript_v15.md -> manuscript_v15.docx -> render/manuscript_v15.pdf
+# Run from the folder that holds manuscript_v15.md and the figure PNGs.
 # Requires pandoc, python-docx, LibreOffice (soffice). build_v14.py is identical apart from the version number.
 import subprocess, re, os
 from docx import Document
@@ -6,7 +7,6 @@ from docx.shared import Pt, Inches, Cm, RGBColor
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-os.chdir(os.path.dirname(os.path.abspath(__file__)) if False else ".")
 body=open("manuscript_v15.md").read()
 open("manuscript_v15_full.md","w").write(body)
 subprocess.run(["pandoc","-f","markdown-tex_math_dollars","manuscript_v15_full.md","-o","manuscript_v15.docx","--resource-path=.","-V","geometry:margin=2.5cm"],check=True)
