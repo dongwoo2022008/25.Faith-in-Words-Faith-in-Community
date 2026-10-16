@@ -1,11 +1,10 @@
-# Raw data location
+# Raw data
 
-The two raw loan files are not in this folder or in the GitHub repository because of their size. They are on Google Drive at the paths below; copy them here if you want the folder to be self-contained.
+The two raw loan files are not in the repository because of their size. Both are public Kaggle datasets; the author downloaded them in June 2026.
 
-| File | Location | Size | Used by |
+| File | Source | Size | Used by |
 |---|---|---|---|
-| accepted_2007_to_2018Q4.csv.gz | H:\내 드라이브\논문.김동우\data\P2P대출\Lending Club\ | 392 MB | 03_code/preprocessing_exploration/lc_extract.py |
-| prosperLoanData.csv | H:\내 드라이브\논문.김동우\data\P2P대출\Prosper\prosperLoanData.csv\ | 86 MB | 03_code/analysis/step7a.py |
-| LCDataDictionary.xlsx | (copied here) | 23 KB | variable dictionary |
+| accepted_2007_to_2018Q4.csv.gz | Kaggle, "All Lending Club loan data" (https://www.kaggle.com/datasets/wordsforthewise/lending-club), 2018Q4 release: 2,260,701 loans issued June 2007–December 2018 | 392 MB | 03_code/preprocessing_exploration/lc_extract.py, 03_code/analysis/rebuild_TD.py, verify_*.py |
+| prosperLoanData.csv | Kaggle distribution of the Prosper loan file originally released with the Udacity data-analysis course: 113,937 listings, 2005–2014 [author: insert the Kaggle dataset page used] | 86 MB | 03_code/analysis/step7a.py |
 
-Sources: LendingClub public loan data (2007–2018Q4, Kaggle release); Prosper loan data (2005–2014, Udacity release).
+The LendingClub data dictionary (LCDataDictionary.xlsx) ships with the Kaggle dataset and is not copied here. The external files used in Sections 3.4 and 5.5 (2010 U.S. Religion Census county file from the Association of Religion Data Archives, the Census Bureau's 2010 ZCTA–county relationship file, and BLS Local Area Unemployment Statistics county annual unemployment 2008–2018) are likewise public and are kept on the author's Drive copy of this package. No raw file is redistributed here; check each source's license before redistributing.

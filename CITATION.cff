@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these materials, please cite the paper and this repository."
+title: "Faith in Words, Faith in Community: Religious Affiliation, Religious Language, and Default in Online Consumer Credit (replication package)"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Dongwoo
+    orcid: "https://orcid.org/0000-0003-2219-083X"
+    affiliation: "Division of Advanced IT, Baekseok University"
+date-released: "2026-10-16"
+version: "v21"
+repository-code: "https://github.com/dongwoo2022008/25.Faith-in-Words-Faith-in-Community"
+keywords:
+  - religion
+  - social capital
+  - consumer credit
+  - credit risk
+  - online lending
+  - text analysis
+preferred-citation:
+  type: article
+  title: "Faith in Words, Faith in Community: Religious Affiliation, Religious Language, and Default in Online Consumer Credit"
+  authors:
+    - family-names: Kim
+      given-names: Dongwoo
+  year: 2026
+  journal: "Manuscript submitted to the Journal of Economic Behavior & Organization"

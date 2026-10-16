@@ -1,21 +1,20 @@
-# 사람 코더 검증 결과 (2026-09-20)
+# Human-coder validation (20 September 2026)
 
-저자(사람 코더 1인)가 LC 200건, PF 100건을 코드북대로 직접 코딩한 결과를 1차 LLM 코딩과 대조했다.
+The author (one human coder) coded the 200-record LendingClub validation sample by the codebook and the result was compared with the primary LLM coding. (The same exercise was run on a 100-record sample from a Korean platform during the feasibility stage; that platform is not used in the paper and its records were removed from this repository.)
 
-| 표본 | n | 유형(4분류) κ | 원 일치 | 종교/비종교 κ | 원 일치 | frame κ |
+| Sample | n | Type (4 classes) κ | Raw agreement | Religious vs not κ | Raw agreement | Frame κ |
 |---|---:|---:|---:|---:|---:|---:|
 | LC_200 | 200 | 0.719 | 81.5% | 0.553 | 84.5% | 0.481 |
-| PF_100 | 100 | 0.632 | 73.0% | 0.562 | 86.0% | 0.016 |
 
-LC 200건 교차표(행 LLM, 열 사람): a 88/2/1/9, b 2/10/0/8, c 0/1/36/3, x 8/0/3/29.
-종교 여부 이분: LLM 종교·사람 비종교 20건, LLM 비종교·사람 종교 11건.
+LC 200 cross-tabulation (rows LLM, columns human): a 88/2/1/9, b 2/10/0/8, c 0/1/36/3, x 8/0/3/29.
+Religious vs not: LLM religious and human not religious 20 records; LLM not religious and human religious 11.
 
-해석
-- LLM 대 LLM(κ 0.86 / 0.81)보다 낮다. 종교/비종교 이분에서 원 일치는 84.5%로 높지만, 표본의 80%가 종교라 κ가 0.55로 내려간다.
-- 경계 판단(관용구 a와 비종교 x, 정체성 b와 관용구 a)에서 불일치가 몰린다.
-- PF의 frame κ는 사람 코더가 98건을 "도덕/곤경"으로 매겨 사실상 변이가 없어 계산 의미가 없다.
+Reading
+- Lower than LLM vs LLM (κ 0.86 / 0.81). Raw agreement on the religious/not binary is high (84.5%), but 80% of the sample is religious, so κ falls to 0.55 (prevalence-adjusted κ 0.69).
+- Disagreements cluster at the boundaries (formulaic a vs not religious x; identity claim b vs formulaic a).
+- Against the design note's κ ≥ 0.7 rule: met for the four-class type (0.86 LLM–LLM, 0.72 human–LLM); not met for the human–LLM religious/not binary (0.55; 0.69 prevalence-adjusted) or for frame (0.48). Frame enters no estimate; the binary enters Table 8, which Appendix B1 reports with this caveat.
 
-원고 반영
-- 3.2절: LLM 2차 검증과 사람 검증 수치를 모두 기재. 검증 지표는 "더 나은 측정"이 아니라 강건성 점검으로, 유형별 분해는 가장 불확실한 결과로 규정.
-- 부록 표 B1 주석: 사람 코더 κ와 불일치 건수(11건, 20건) 기재.
-- 확인적 검정은 사전 지정대로 사전(dictionary) 지표를 쓰므로 주결과는 영향받지 않는다.
+Manuscript
+- Section 3.2 reports both the second-LLM check and the human check as robustness checks, not as a better measurement; the type breakdown is treated as the most uncertain result.
+- Appendix Table B1 notes carry the human κ values and the disagreement counts (11, 20).
+- The confirmatory test uses the dictionary indicator fixed in the design note, so the main results do not depend on the coding.
