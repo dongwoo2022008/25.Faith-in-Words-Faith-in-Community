@@ -376,7 +376,7 @@ Two implications follow. The first concerns how a lender reads religion in a cre
 
 # Funding
 
-This work was supported by Baekseok University.
+This work was supported by the Baekseok University Research Fund.
 
 # Declaration of generative AI and AI-assisted technologies in the writing process
 
