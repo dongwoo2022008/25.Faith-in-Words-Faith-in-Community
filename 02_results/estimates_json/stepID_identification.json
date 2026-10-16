@@ -1,4 +1,5 @@
 {
+ "_note": "within_institution (clergy_role 2,363 / church_staff_nonclergy 768) uses an earlier version of the affiliation rule (3,131 affiliated terminated loans). The manuscript's Table 10 (2,497 / 608 of 3,105) comes from stepR2a.json (split_role, split_staff, split_equal_p). The zip3FE_LPM block is current (Table 11, ZIP3 FE row).",
  "member_id_nonnull": 0,
  "within_institution": {
   "clergy_role": {

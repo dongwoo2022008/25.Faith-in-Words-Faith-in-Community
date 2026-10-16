@@ -1,5 +1,5 @@
 {
- "_note": "Output of 03_code/preprocessing_exploration/lc_two_signal_analysis.py (first-pass run, 2026-09-17). p-values here are not clustered by state; the manuscript's Tables 2, 6, 7 and 9 report the state-clustered versions in step2_results.json.",
+ "_note": "Output of 03_code/preprocessing_exploration/lc_two_signal_analysis.py (the exploratory first pass run on 5 September 2026; file saved 2026-09-05 08:43 UTC and its values are those reported in 06_planning_docs/religious_language_first_analysis_2026-09-05.md). p-values here are not clustered by state; the manuscript's Tables 2, 6, 7 and 9 report the state-clustered versions in step2_results.json.",
  "H1_full": {"n": 253105, "coef": -0.36801720953364514, "se": 0.05535707979388801, "p": 2.969804622481827e-11, "OR": 0.6921052707772967},
  "H1_2008-2014": {"n": 85132, "n_clergy": 1191, "OR": 0.6068749741716696, "p": 3.452507792190408e-07},
  "H1_2015-2018": {"n": 167973, "n_clergy": 1914, "OR": 0.7434497934150908, "p": 1.0761024001532118e-05},

@@ -1,4 +1,5 @@
 {
+ "_note": "SUPERSEDED (noted 16 October 2026). This is an earlier run on the sample merged to the unemployment data with a different affiliation indicator (relaff) and sample; the manuscript's Appendix Table C6 (affiliation 0.687, interaction 0.975 p 0.58, terciles 0.588/0.763/0.721, teacher x change 1.057) comes from the T8 block of stepR2a.json (stepR2a.py). Kept for the record only.",
  "main": {
   "relaff[T.True]": {
    "OR": 0.6672489171364588,
