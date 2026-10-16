@@ -18,4 +18,4 @@
 - Davidson et al. (2026) 쪽수 181–217: Crossref DOI 10.1007/s10693-025-00451-3로 확인. 연구비 문구, 표지 주소, 커버레터 날짜, 데이터 가용성(GitHub만) 반영.
 
 ## 저자만 할 수 있는 것
-- git filter-repo 이력 정리(옆 커밋 933714b, 99203f1 등에서 삭제 파일이 내려받아짐) → 정리 뒤 README의 두 SHA 갱신, 태그·릴리스(그림 PNG·PDF 첨부). LICENSE 선택. raw_data_location.md의 Prosper Kaggle 페이지 확인.
+- git filter-repo 이력 정리(옛 커밋 933714b, 99203f1 등에서 삭제 파일이 내려받아짐) → 정리 뒤 README의 두 SHA 갱신, 태그·릴리스(그림 PNG·PDF 첨부). LICENSE 선택. raw_data_location.md의 Prosper Kaggle 페이지 확인.
