@@ -13,6 +13,16 @@ st.element.rPr.rFonts.set(qn('w:eastAsia'),"Times New Roman")
 for s in doc.sections:
     s.page_width=Cm(21.0); s.page_height=Cm(29.7); s.left_margin=s.right_margin=Cm(2.5); s.top_margin=s.bottom_margin=Cm(2.5)
 usable=s.page_width-s.left_margin-s.right_margin
+# page number in the footer (centered PAGE field); Editorial Manager adds line numbers but not page numbers
+for s in doc.sections:
+    fp=s.footer.paragraphs[0] if s.footer.paragraphs else s.footer.add_paragraph()
+    fp.alignment=WD_ALIGN_PARAGRAPH.CENTER
+    r=fp.add_run(); r.font.size=Pt(10); r.font.name="Times New Roman"
+    for tag,txt in (('begin',None),(None,' PAGE '),('end',None)):
+        if tag:
+            fc=OxmlElement('w:fldChar'); fc.set(qn('w:fldCharType'),tag); r._r.append(fc)
+        else:
+            it=OxmlElement('w:instrText'); it.set(qn('xml:space'),'preserve'); it.text=txt; r._r.append(it)
 for t in doc.tables:
     t.style=doc.styles['Table Grid'] if 'Table Grid' in [x.name for x in doc.styles] else t.style
     ncol=len(t.columns)
