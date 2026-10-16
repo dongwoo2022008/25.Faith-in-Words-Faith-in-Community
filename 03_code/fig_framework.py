@@ -85,7 +85,7 @@ sig_b = box(L0, L1, 9.40, "Institutional affiliation (n = 3,105)",
              "church secretary, church administrator"])
 box(R0, R1, 9.40, "Self-authored religious language (n = 681)",
     ["Loan description: “God bless”,",
-     "“as a Christian I pay my debts”"], dashed=True)
+     "“as a Christian I believe in paying my debts”"], dashed=True)
 
 arrow(LC, sig_b, LC, 7.05)
 arrow(RC, sig_b, RC, 7.05, dashed=True)
