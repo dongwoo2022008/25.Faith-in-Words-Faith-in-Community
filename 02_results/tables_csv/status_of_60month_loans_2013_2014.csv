@@ -1,0 +1,13 @@
+issue_year,term,loan_status,loans
+2013,60 months,Charged Off,8646
+2013,60 months,Current,6
+2013,60 months,Fully Paid,25736
+2013,60 months,In Grace Period,1
+2013,60 months,Late (31-120 days),3
+2014,60 months,Charged Off,18846
+2014,60 months,Current,11919
+2014,60 months,Default,1
+2014,60 months,Fully Paid,41686
+2014,60 months,In Grace Period,200
+2014,60 months,Late (16-30 days),73
+2014,60 months,Late (31-120 days),334

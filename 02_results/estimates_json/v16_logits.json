@@ -1,0 +1,12 @@
+{
+ "_note": "run_v16_logits.py on T.pkl/D.pkl rebuilt by rebuild_TD.py (2026-10-16). check_* rows reproduce Table 2 column (1), Table 2 column (2) and Table 6 column (3).",
+ "check_H1_full": {"n": 253105, "n_treated": 3105, "coef": -0.368, "se": 0.0414, "p": 0.0, "OR": 0.6921, "AME": -0.0483, "converged": true},
+ "check_H1_2007_2014": {"n": 85132, "n_treated": 1191, "coef": -0.4994, "se": 0.0871, "p": 0.0, "OR": 0.6069, "AME": -0.056, "converged": true},
+ "n_2007_in_TS": 49,
+ "n_2014_t60_in_TS": 11509,
+ "H1_matured_excl_2014_60m": {"n": 73623, "n_treated": 1061, "coef": -0.497, "se": 0.1122, "p": 0.0, "OR": 0.6084, "AME": -0.0502, "converged": true},
+ "H1_full_excl_2014_60m": {"n": 241596, "n_treated": 2975, "coef": -0.3592, "se": 0.0449, "p": 0.0, "OR": 0.6983, "AME": -0.0463, "converged": true},
+ "check_H2_col3": {"n": 123292, "n_treated": 681, "coef": 0.2474, "se": 0.1027, "p": 0.016, "OR": 1.2807, "AME": 0.0322, "converged": true},
+ "H2_matched_table6_controls": {"n": 3572, "n_treated": 681, "coef": 0.2589, "se": 0.1259, "p": 0.0397, "OR": 1.2956, "AME": 0.0324, "converged": true},
+ "H2_matched_sample": {"n": 3572, "n_treated": 681, "n_controls": 2891, "mean_len_treated": 116.4361, "mean_len_controls": 114.2954}
+}
