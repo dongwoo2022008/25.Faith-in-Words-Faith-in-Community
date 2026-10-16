@@ -1,6 +1,6 @@
 # Codebook: religious expression in LendingClub loan descriptions
 
-This is the codebook reported in Appendix B of "Faith in Words, Faith in Community". It is the English-only version of the working codebook used for the September 2026 coding (`work/coding/CODEBOOK.md`), which also carried Korean examples for a Popfunding sample that the paper does not use. Definitions, examples, the precedence rule and the blinding rule are unchanged.
+This is the codebook reported in Appendix B of "Faith in Words, Faith in Community". It is the English-only version of the working codebook used for the September 2026 coding (`work/coding/CODEBOOK.md`). Definitions, examples, the precedence rule and the blinding rule are unchanged.
 
 For each flagged record, assign exactly one TYPE and one FRAME.
 

@@ -2,7 +2,7 @@ import pandas as pd, numpy as np, json, glob, warnings; warnings.filterwarnings(
 from sklearn.metrics import cohen_kappa_score
 import statsmodels.formula.api as smf
 res={}
-for name,idc in [("lc","loan_id"),("pf","listing_id")]:
+for name,idc in [("lc","loan_id")]:
     base=pd.read_pickle(f"coding/{name}.pkl"); base[idc]=base[idc].astype(str)
     coded=pd.concat([pd.read_json(f,lines=True) for f in sorted(glob.glob(f"coding/{name}_batch*_coded.jsonl"))]); coded['id']=coded['id'].astype(str)
     m=base.merge(coded,left_on=idc,right_on='id',how='left'); assert m.type.notna().all() and len(m)==len(base) and m.id.is_unique

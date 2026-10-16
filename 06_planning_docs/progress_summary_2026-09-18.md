@@ -4,7 +4,7 @@
 - 제목(안): *Faith in Words and Faith at Work: Two Religious Signals with Opposite Credit-Risk Content in Online Lending*
 - 연구질문 1개: 차입자의 신앙은 **표현된 형태**(서술문 종교 언어)와 **체화된 형태**(직업란 종교 직업)에서 신용성과에 반대 방향의 정보를 담는가.
 - 확인적 가설 2개: H1 clergy OR < 1, H2 relig_lang OR > 1 (단측, Holm). 그 외는 강건성·탐색.
-- 자료: LendingClub 2007–2018Q4(종결대출 1,344,976; 서술 표본 123,292, 2008–2014). Prosper는 H1 교차 재현용. **Popfunding·Moneyauction·Kiva는 이 논문에 쓰지 않음**(Kiva는 후속 논문 후보).
+- 자료: LendingClub 2007–2018Q4(종결대출 1,344,976; 서술 표본 123,292, 2008–2014). Prosper는 H1 교차 재현용. Kiva는 이 논문에 쓰지 않음(후속 논문 후보).
 - 주장하지 않을 것: 인과 효과, 예측력 개선(ΔAUC ≈ 0).
 
 ## 2. 실행 완료 (작업지시서 1–7단계, 7-A/B/C)

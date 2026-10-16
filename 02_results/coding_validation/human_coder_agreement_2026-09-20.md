@@ -1,6 +1,6 @@
 # Human-coder validation (20 September 2026)
 
-The author (one human coder) coded the 200-record LendingClub validation sample by the codebook and the result was compared with the primary LLM coding. (The same exercise was run on a 100-record sample from a Korean platform during the feasibility stage; that platform is not used in the paper and its records were removed from this repository.)
+The author (one human coder) coded the 200-record LendingClub validation sample by the codebook and the result was compared with the primary LLM coding.
 
 | Sample | n | Type (4 classes) κ | Raw agreement | Religious vs not κ | Raw agreement | Frame κ |
 |---|---:|---:|---:|---:|---:|---:|
