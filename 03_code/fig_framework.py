@@ -116,10 +116,10 @@ box(0.10, 3.05, 4.34, "Local congregation density",
 MOD_Y = 3.62
 arrow(3.05, MOD_Y, LC - 0.09, MOD_Y)
 MOD_X = (3.05 + LC) / 2
-ax.text(MOD_X, MOD_Y + 0.44, "moderates H1",
-        ha="center", va="bottom", fontsize=FS_E, style="italic")
-ax.text(MOD_X, MOD_Y + 0.16, "(interaction OR 0.84)",
-        ha="center", va="bottom", fontsize=FS_E, style="italic")
+ax.text(MOD_X, MOD_Y - 0.14, "moderates H1",
+        ha="center", va="top", fontsize=FS_E, style="italic")
+ax.text(MOD_X, MOD_Y - 0.42, "(interaction OR 0.84)",
+        ha="center", va="top", fontsize=FS_E, style="italic")
 
 # --- results ---------------------------------------------------------
 box(L0, L1, RES_TOP, "Default odds ratio 0.69 (−4.8 pp)",
@@ -128,8 +128,8 @@ box(L0, L1, RES_TOP, "Default odds ratio 0.69 (−4.8 pp)",
      "unresponsive to local unemployment"])
 box(R0, R1, RES_TOP, "Default odds ratio 1.28 (+3.2 pp)",
     ["Direction stable; imprecise once the full",
-     "text is conditioned on; no interaction",
-     "with local religiosity"], dashed=True)
+     "text is conditioned on; no detectable",
+     "interaction with local religiosity"], dashed=True)
 
 # --- pricing footer ---------------------------------------------------
 line(0.10, -0.30, W - 0.10, -0.30)
@@ -144,4 +144,3 @@ fig.savefig("figures/Figure1_channels.png", dpi=600, bbox_inches="tight",
             facecolor="white")
 fig.savefig("figures/Figure1_channels.pdf", bbox_inches="tight",
             facecolor="white")
-print("ok")
