@@ -1,0 +1,220 @@
+{
+ "full_file": {
+  "loans": 2260701,
+  "affiliated": 5014,
+  "note": "Section 3.2: 5,014 affiliated loans in the full file; Appendix Table B3 row 4"
+ },
+ "table1": {
+  "Religious-institution affiliation": {
+   "N": 3105.0,
+   "default_rate": 0.133,
+   "fico_mean": 703.9,
+   "income_median": 60000.0,
+   "dti_mean": 19.0,
+   "rate_mean": 12.28,
+   "amount_mean": 14827.0,
+   "share_60month": 0.228,
+   "share_grade_AB": 0.57,
+   "defaults": 414.0,
+   "fico_mean_exact": 703.9470209339775,
+   "amount_mean_exact": 14826.763285024155,
+   "share_grade_AB_exact": 0.5703703703703704,
+   "dti_mean_exact": 18.980235104669887,
+   "rate_mean_exact": 12.279281803542673
+  },
+  "- clergy role": {
+   "N": 2497.0,
+   "default_rate": 0.138,
+   "fico_mean": 702.9,
+   "income_median": 62400.0,
+   "dti_mean": 19.3,
+   "rate_mean": 12.12,
+   "amount_mean": 15259.0,
+   "share_60month": 0.233,
+   "share_grade_AB": 0.565,
+   "defaults": 345.0,
+   "fico_mean_exact": 702.8890668802563,
+   "amount_mean_exact": 15259.291149379254,
+   "share_grade_AB_exact": 0.5646776131357629,
+   "dti_mean_exact": 19.335843011613935,
+   "rate_mean_exact": 12.124417300760912
+  },
+  "- church staff (non-clergy)": {
+   "N": 608.0,
+   "default_rate": 0.113,
+   "fico_mean": 708.3,
+   "income_median": 53000.0,
+   "dti_mean": 17.5,
+   "rate_mean": 12.92,
+   "amount_mean": 13050.0,
+   "share_60month": 0.207,
+   "share_grade_AB": 0.594,
+   "defaults": 69.0,
+   "fico_mean_exact": 708.2919407894736,
+   "amount_mean_exact": 13050.411184210527,
+   "share_grade_AB_exact": 0.59375,
+   "dti_mean_exact": 17.519786184210524,
+   "rate_mean_exact": 12.915296052631579
+  },
+  "All other borrowers": {
+   "N": 1341871.0,
+   "default_rate": 0.2,
+   "fico_mean": 698.2,
+   "income_median": 65000.0,
+   "dti_mean": 18.3,
+   "rate_mean": 13.24,
+   "amount_mean": 14418.0,
+   "share_60month": 0.241,
+   "share_grade_AB": 0.466,
+   "defaults": 268114.0,
+   "fico_mean_exact": 698.1690818267925,
+   "amount_mean_exact": 14418.234055285493,
+   "share_grade_AB_exact": 0.46647181435473306,
+   "dti_mean_exact": 18.281022400812002,
+   "rate_mean_exact": 13.241447784474067
+  },
+  "All terminated loans": {
+   "N": 1344976.0,
+   "default_rate": 0.2,
+   "fico_mean": 698.2,
+   "income_median": 65000.0,
+   "dti_mean": 18.3,
+   "rate_mean": 13.24,
+   "amount_mean": 14419.0,
+   "share_60month": 0.241,
+   "share_grade_AB": 0.467,
+   "defaults": 268528.0,
+   "fico_mean_exact": 698.18242072721,
+   "amount_mean_exact": 14419.177182343774,
+   "share_grade_AB_exact": 0.4667116736655524,
+   "dti_mean_exact": 18.28263659723296,
+   "rate_mean_exact": 13.239226536384292
+  },
+  "Religious language (description sample)": {
+   "N": 681.0,
+   "default_rate": 0.2,
+   "fico_mean": 704.9,
+   "income_median": 55000.0,
+   "dti_mean": 16.0,
+   "rate_mean": 13.44,
+   "amount_mean": 13460.0,
+   "share_60month": 0.256,
+   "share_grade_AB": 0.502,
+   "defaults": 136.0,
+   "fico_mean_exact": 704.9074889867842,
+   "amount_mean_exact": 13459.875183553597,
+   "share_grade_AB_exact": 0.5022026431718062,
+   "dti_mean_exact": 15.969794419970631,
+   "rate_mean_exact": 13.442422907488988
+  },
+  "Other descriptions": {
+   "N": 122611.0,
+   "default_rate": 0.153,
+   "fico_mean": 703.7,
+   "income_median": 62000.0,
+   "dti_mean": 16.3,
+   "rate_mean": 13.42,
+   "amount_mean": 13982.0,
+   "share_60month": 0.232,
+   "share_grade_AB": 0.535,
+   "defaults": 18768.0,
+   "fico_mean_exact": 703.6565397884366,
+   "amount_mean_exact": 13981.806077758112,
+   "share_grade_AB_exact": 0.5354495110552887,
+   "dti_mean_exact": 16.317719698885092,
+   "rate_mean_exact": 13.419588536101982
+  },
+  "All descriptions": {
+   "N": 123292.0,
+   "default_rate": 0.153,
+   "fico_mean": 703.7,
+   "income_median": 62000.0,
+   "dti_mean": 16.3,
+   "rate_mean": 13.42,
+   "amount_mean": 13979.0,
+   "share_60month": 0.232,
+   "share_grade_AB": 0.535,
+   "defaults": 18904.0,
+   "fico_mean_exact": 703.6634493722221,
+   "amount_mean_exact": 13978.923206696298,
+   "share_grade_AB_exact": 0.5352658728871298,
+   "dti_mean_exact": 16.31579794309444,
+   "rate_mean_exact": 13.419714661129676
+  }
+ },
+ "section_3_3": {
+  "median_words": [
+   68.0,
+   23.0
+  ],
+  "mean_words": [
+   116.4,
+   36.2
+  ],
+  "shares": {
+   "moral": [
+    0.192,
+    0.058
+   ],
+   "hardship": [
+    0.154,
+    0.066
+   ],
+   "gratitude": [
+    0.558,
+    0.138
+   ],
+   "family": [
+    0.326,
+    0.069
+   ],
+   "help": [
+    0.147,
+    0.043
+   ],
+   "business": [
+    0.156,
+    0.072
+   ]
+  },
+  "note": "Section 3.3 (median 68 vs 23 words; shares) and Table 1 notes (mean words 116 vs 36; shares)"
+ },
+ "section_3_2": {
+  "relig_matches_analysis_sample": 784,
+  "relig_matches_description_sample": 681,
+  "affiliated_in_description_sample": 372,
+  "both_in_description_sample": 20,
+  "note": "Section 3.2: 784 matches in the analysis sample; 372 affiliated and 681 religious-language loans in the description sample, 20 both; Appendix Table B3"
+ },
+ "section_5_4_named_institution": {
+  "n_named": 583,
+  "distinct_strings": 497,
+  "repeated_strings": 46,
+  "loans_in_repeated": 132,
+  "top": {
+   "first baptist church": 18,
+   "united methodist church": 8,
+   "first presbyterian church": 8,
+   "first united methodist church": 5,
+   "lds church": 4
+  },
+  "rule": "organization word plus at least one non-generic token (see names_institution)",
+  "note": "Section 5.4 (manuscript v22: 583 of 3,105 titles name a specific institution, 497 distinct strings, 46 repeated). The mechanism plan of 20 September 2026 recorded 606 / 509 / 50 under a rule that was not preserved; from v22 the manuscript reports this reproducible count."
+ },
+ "table11_n": {
+  "zip3_areas_in_relationship_file": 894,
+  "H1_sample_matched": 253040,
+  "H1_sample": 253105,
+  "description_sample_matched": 123261,
+  "description_sample": 123292,
+  "share_all_terminated_matched": 0.99972,
+  "note": "Table 11 rows 1 and 8 (N = 253,038 and 123,260) and Section 3.4 (894 areas, 99.97 percent of loans)"
+ },
+ "table5_prosper_raw": {
+  "n": 50270,
+  "n_clergy": 141,
+  "default_clergy": 0.227,
+  "default_other": 0.305,
+  "note": "Table 5 notes: raw default 22.7% vs 30.5%"
+ }
+}

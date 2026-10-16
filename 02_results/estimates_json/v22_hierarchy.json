@@ -1,0 +1,27 @@
+{
+ "rule": "assoc if title has associate/assoc/youth/assistant/asst; else senior if senior/sr/lead/executive; else other affiliated",
+ "converged": true,
+ "n": 253105,
+ "sec": 28,
+ "senior": {
+  "n": 509,
+  "raw_default": 0.0884,
+  "OR": 0.45856088110333737,
+  "se": 0.19851145756882094,
+  "p": 8.581821178572902e-05
+ },
+ "assoc": {
+  "n": 235,
+  "raw_default": 0.1447,
+  "OR": 0.6357383822481467,
+  "se": 0.23147095607731055,
+  "p": 0.050357887939462616
+ },
+ "other": {
+  "n": 2361,
+  "raw_default": 0.1419,
+  "OR": 0.7508083670699295,
+  "se": 0.05150639062816691,
+  "p": 2.629777408176549e-08
+ }
+}
