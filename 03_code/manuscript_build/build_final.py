@@ -4,10 +4,10 @@ from docx.shared import Pt, Inches, Cm, RGBColor
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-body=open("manuscript_JEBO.md").read()
-open("manuscript_JEBO_full.md","w").write(body)
-subprocess.run(["pandoc","-f","markdown-tex_math_dollars","manuscript_JEBO_full.md","-o","manuscript_JEBO.docx","--resource-path=.","-V","geometry:margin=2.5cm"],check=True)
-doc=Document("manuscript_JEBO.docx")
+body=open("manuscript.md").read()
+open("manuscript_full.md","w").write(body)
+subprocess.run(["pandoc","-f","markdown-tex_math_dollars","manuscript_full.md","-o","manuscript.docx","--resource-path=.","-V","geometry:margin=2.5cm"],check=True)
+doc=Document("manuscript.docx")
 st=doc.styles['Normal']; st.font.name="Times New Roman"; st.font.size=Pt(11)
 st.element.rPr.rFonts.set(qn('w:eastAsia'),"Times New Roman")
 for s in doc.sections:
@@ -62,6 +62,6 @@ for p in doc.paragraphs:
         p.paragraph_format.keep_with_next=True
     if txt.startswith("Pr(D"):
         p.alignment=WD_ALIGN_PARAGRAPH.CENTER
-doc.save("manuscript_JEBO.docx")
-subprocess.run(["soffice","--headless","--convert-to","pdf","--outdir","render","manuscript_JEBO.docx"],check=True,capture_output=True)
+doc.save("manuscript.docx")
+subprocess.run(["soffice","--headless","--convert-to","pdf","--outdir","render","manuscript.docx"],check=True,capture_output=True)
 print("built")

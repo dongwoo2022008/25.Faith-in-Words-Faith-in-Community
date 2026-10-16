@@ -1,6 +1,6 @@
 # Submission documents for "Faith in Words, Faith in Community" (final manuscript, 16 October 2026)
 
-Items in [square brackets] are for the author to confirm or fill in. Everything else matches the final manuscript (manuscript_JEBO.md / .docx / .pdf).
+Items in [square brackets] are for the author to confirm or fill in. Everything else matches the final manuscript (manuscript.md / .docx / .pdf).
 
 ---
 
