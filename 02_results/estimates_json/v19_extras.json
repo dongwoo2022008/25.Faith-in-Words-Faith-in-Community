@@ -1,0 +1,102 @@
+{
+ "occ_counts_T": {
+  "teacher": 40285,
+  "police": 16822,
+  "fire": 2512,
+  "military": 4169,
+  "govt": 10601,
+  "nurse": 39943,
+  "postal": 1446,
+  "transit": 3373
+ },
+ "T2_col4_stable_ctrl": {
+  "n": 253105,
+  "coef": -0.3714143167893353,
+  "se": 0.041248593131991564,
+  "p": 2.1706470076679166e-19,
+  "OR": 0.6897581039861637,
+  "AME": -0.04871718796518968,
+  "converged": true,
+  "sec": 35
+ },
+ "T2_col4_occ_ORs": {
+  "teacher": 0.90932724461427,
+  "police": 0.9252724371911233,
+  "fire": 0.6351454957462719,
+  "military": 0.9266927845405628,
+  "govt": 0.9029663595020367,
+  "nurse": 1.0590739221142547,
+  "postal": 1.2018633677643924,
+  "transit": 1.0981103502118554
+ },
+ "ebal": {
+  "n_covariates": 76,
+  "ess_control": 172964.58910663653,
+  "weighted_default_control": 0.17461769237510094
+ },
+ "T2_col5_ebal": {
+  "n": 253105,
+  "coef": -0.36161556556023905,
+  "se": 0.04256120261039127,
+  "p": 1.9561809406650756e-17,
+  "OR": 0.6965500942220909,
+  "AME": -0.04252503373524775,
+  "converged": true,
+  "sec": 9
+ },
+ "C7_cells_v19": {
+  "affiliation_subgrade_year": {
+   "n": 3105,
+   "default": 0.13333,
+   "default_cellmatched": 0.17364,
+   "netloss_cents": 5.512,
+   "netloss_cellmatched_cents": 7.72,
+   "loss_gap_cents": -2.207,
+   "mean_term_months": 41.46,
+   "mean_realized_life_months": 23.27,
+   "annualized_bp_by_term": -63.9,
+   "annualized_bp_by_realized_life": -113.8,
+   "n_cells": 254
+  },
+  "religious_subgrade_year": {
+   "n": 681,
+   "default": 0.19971,
+   "default_cellmatched": 0.15943,
+   "netloss_cents": 7.076,
+   "netloss_cellmatched_cents": 6.091,
+   "loss_gap_cents": 0.985,
+   "mean_term_months": 42.13,
+   "mean_realized_life_months": 28.22,
+   "annualized_bp_by_term": 28.0,
+   "annualized_bp_by_realized_life": 41.9,
+   "n_cells": 165
+  },
+  "affiliation_subgrade_year_term": {
+   "n": 3105,
+   "default": 0.13333,
+   "default_cellmatched": 0.17552,
+   "netloss_cents": 5.512,
+   "netloss_cellmatched_cents": 7.835,
+   "loss_gap_cents": -2.323,
+   "mean_term_months": 41.46,
+   "mean_realized_life_months": 23.27,
+   "annualized_bp_by_term": -67.2,
+   "annualized_bp_by_realized_life": -119.8,
+   "n_cells": 393
+  },
+  "religious_subgrade_year_term": {
+   "n": 681,
+   "default": 0.19971,
+   "default_cellmatched": 0.15809,
+   "netloss_cents": 7.076,
+   "netloss_cellmatched_cents": 6.058,
+   "loss_gap_cents": 1.017,
+   "mean_term_months": 42.13,
+   "mean_realized_life_months": 28.22,
+   "annualized_bp_by_term": 29.0,
+   "annualized_bp_by_realized_life": 43.3,
+   "n_cells": 217
+  }
+ },
+ "netloss_definition": "default x (1 - total_pymnt/funded_amnt), i.e. zero for repaid loans; reproduces stepC_economic.json exactly with sub_grade x year cells; mean_term_months = mean contractual term (36 + 24 x term60) of the flagged loans, which is what stepC called mean_term_months"
+}
