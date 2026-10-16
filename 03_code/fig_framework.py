@@ -125,7 +125,7 @@ ax.text(MOD_X, MOD_Y - 0.42, "(interaction OR 0.84)",
 box(L0, L1, RES_TOP, "Default odds ratio 0.69 (−4.8 pp)",
     ["Same for clergy and church staff;",
      "larger where congregations are denser;",
-     "unresponsive to local unemployment"])
+     "no detectable response to local unemployment"])
 box(R0, R1, RES_TOP, "Default odds ratio 1.28 (+3.2 pp)",
     ["Direction stable; imprecise once the full",
      "text is conditioned on; no detectable",
