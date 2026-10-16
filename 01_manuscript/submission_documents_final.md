@@ -18,7 +18,7 @@ Corresponding author: Dongwoo Kim (dongwoo.kim@bu.ac.kr)
 *Keywords:* religion, social capital, consumer credit, credit risk, online lending, text analysis, signaling
 *JEL:* D14, G21, G41, Z12
 
-Funding: This work was supported by Baekseok University.
+Funding: This work was supported by the Baekseok University Research Fund.
 
 [Acknowledgements, if any. Suggested: "I thank the 2010 U.S. Religion Census (Association of Statisticians of American Religious Bodies) for the county file." Delete if not wanted.]
 
@@ -38,7 +38,7 @@ Funding: This work was supported by Baekseok University.
 
 **Declaration of competing interest.** The author declares that he has no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
 
-**Funding.** This work was supported by Baekseok University. [Add a grant number if the university assigned one.] The same statement appears in the manuscript in the section "Funding" above the references and on the title page.
+**Funding.** This work was supported by the Baekseok University Research Fund. [Add a grant number if the university assigned one.] The same statement appears in the manuscript in the section "Funding" above the references and on the title page.
 
 **Declaration of generative AI and AI-assisted technologies in the writing process.** Placed in the manuscript itself, as a section immediately above the references (Elsevier's instruction), in the final manuscript: "During the preparation of this work the author used Claude (Anthropic) in order to edit the English text, check the consistency of numbers between the text and the tables, and format the manuscript. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication. The use of a large language model as a text coder in the research method is described in Section 3.2 and Appendix B." Repeat the same text in the submission system's declarations form if it asks for it.
 
@@ -85,7 +85,7 @@ I believe the paper fits the journal for three reasons. First, its central claim
 
 The design is observational and does not identify either mechanism. The two hypotheses, the specification and the rule for lowering the claim on the second hypothesis were fixed in a dated design note before the confirmatory estimates were run, and I report where that rule applied. The analysis uses the public LendingClub and Prosper loan files and public county data from the U.S. Religion Census and the Bureau of Labor Statistics. The code, the estimates behind every table, the coding materials and the design note are in a public repository (https://github.com/dongwoo2022008/25.Faith-in-Words-Faith-in-Community). A large language model was used as a text coder in the method, which Appendix B documents, and for editing the English, which the declarations state.
 
-The manuscript has not been published and is not under consideration elsewhere. I have no competing interests to declare. This work was supported by Baekseok University.
+The manuscript has not been published and is not under consideration elsewhere. I have no competing interests to declare. This work was supported by the Baekseok University Research Fund.
 
 Thank you for considering the paper.
 
